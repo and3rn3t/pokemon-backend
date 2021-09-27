@@ -1,7 +1,7 @@
 "use strict";
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable("Pokemons", {
+    await queryInterface.createTable("PokemonSpecies", {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -11,23 +11,44 @@ module.exports = {
       name: {
         type: Sequelize.STRING,
       },
-      species_id: {
+      generation: {
         type: Sequelize.INTEGER,
       },
-      height: {
+      evolves_from_species: {
         type: Sequelize.INTEGER,
       },
-      weight: {
+      evolution_chain: {
         type: Sequelize.INTEGER,
       },
-      base_experience: {
+      gender_rate: {
         type: Sequelize.INTEGER,
+      },
+      capture_rate: {
+        type: Sequelize.INTEGER,
+      },
+      base_happiness: {
+        type: Sequelize.INTEGER,
+      },
+      is_baby: {
+        type: Sequelize.BOOLEAN,
+      },
+      hatch_counter: {
+        type: Sequelize.INTEGER,
+      },
+      has_gender_differences: {
+        type: Sequelize.BOOLEAN,
+      },
+      forms_switchable: {
+        type: Sequelize.BOOLEAN,
+      },
+      is_legendary: {
+        type: Sequelize.BOOLEAN,
+      },
+      is_mythical: {
+        type: Sequelize.BOOLEAN,
       },
       order: {
         type: Sequelize.INTEGER,
-      },
-      isDefault: {
-        type: Sequelize.BOOLEAN,
       },
       createdAt: {
         allowNull: false,
@@ -42,6 +63,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable("Pokemons");
+    await queryInterface.dropTable("PokemonSpecies");
   },
 };
