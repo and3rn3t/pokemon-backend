@@ -1,45 +1,46 @@
-'use strict';
+"use strict";
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('Pokemons', {
-      id: {
+    await queryInterface.createTable("Pokemons", {
+      pokemonId: {
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       pokemonName: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       speciesId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       height: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       weight: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       baseExperience: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       order: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       isDefault: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: new Date(),
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+        defaultValue: new Date(),
+      },
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Pokemons');
-  }
+    await queryInterface.dropTable("Pokemons");
+  },
 };

@@ -1,45 +1,47 @@
-'use strict';
+"use strict";
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('MoveDetails', {
+    await queryInterface.createTable("MoveDetails", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       moveId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       moveName: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       power: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       pp: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       accuracy: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       priority: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       targetName: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: new Date(),
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+        defaultValue: new Date(),
+      },
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('MoveDetails');
-  }
+    await queryInterface.dropTable("MoveDetails");
+  },
 };

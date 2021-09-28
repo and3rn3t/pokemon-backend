@@ -1,66 +1,68 @@
-'use strict';
+"use strict";
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('PokemonSpecies', {
-      id: {
+    await queryInterface.createTable("PokemonSpecies", {
+      speciesId: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       speciesName: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       generation: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       evolvesFromSpecies: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       evolutionChain: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       genderRate: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       captureRate: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       baseHappiness: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       isBaby: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN,
       },
       hatchCounter: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       hasGenderDifferences: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN,
       },
       formsSwitchable: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN,
       },
       isLegendary: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN,
       },
       isMythical: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN,
       },
       order: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: new Date(),
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+        defaultValue: new Date(),
+      },
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('PokemonSpecies');
-  }
+    await queryInterface.dropTable("PokemonSpecies");
+  },
 };
