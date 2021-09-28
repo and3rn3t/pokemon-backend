@@ -1,4 +1,4 @@
-﻿id,speciesName,generation,evolvesFromSpecies,evolutionChain,genderRate,captureRate,baseHappiness,isBaby,hatchCounter,hasGenderDifferences,formsSwitchable,isLegendary,isMythical,order
+﻿speciesId,speciesName,generation,evolvesFromSpecies,evolutionChain,genderRate,captureRate,baseHappiness,isBaby,hatchCounter,hasGenderDifferences,formsSwitchable,isLegendary,isMythical,order
 1,bulbasaur,1,,1,1,45,50,0,20,0,0,0,0,1
 2,ivysaur,1,1,1,1,45,50,0,20,0,0,0,0,2
 3,venusaur,1,2,1,1,45,50,0,20,1,1,0,0,3

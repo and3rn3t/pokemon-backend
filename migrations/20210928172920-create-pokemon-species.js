@@ -4,7 +4,6 @@ module.exports = {
     await queryInterface.createTable("PokemonSpecies", {
       speciesId: {
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },

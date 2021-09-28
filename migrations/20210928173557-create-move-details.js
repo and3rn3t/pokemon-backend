@@ -4,7 +4,6 @@ module.exports = {
     await queryInterface.createTable("MoveDetails", {
       id: {
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
