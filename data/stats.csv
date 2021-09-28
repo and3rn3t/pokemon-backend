@@ -1,4 +1,4 @@
-﻿pokemon_id,stat_id,base_stat,effort
+﻿pokemonId,statId,baseStat,effort
 1,hp,45,0
 1,attack,49,0
 1,defense,49,0

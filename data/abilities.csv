@@ -1,4 +1,4 @@
-﻿pokemon_id,ability_name,is_hidden,slot
+﻿pokemonId,abilityName,isHidden,slot
 1,overgrow,0,1
 1,chlorophyll,1,3
 2,overgrow,0,1
