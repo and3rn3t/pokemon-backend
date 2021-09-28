@@ -1,4 +1,4 @@
-﻿id,name,power,pp,accuracy,priority,target_name
+﻿moveId,moveName,power,pp,accuracy,priority,targetName
 1,pound,40,35,100,0,selected-pokemon
 2,karate-chop,50,25,100,0,selected-pokemon
 3,double-slap,15,10,85,0,selected-pokemon
