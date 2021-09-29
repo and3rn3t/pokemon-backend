@@ -28,6 +28,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Pokemon.init(
     {
+      id: DataTypes.INTEGER,
       pokemonId: DataTypes.INTEGER,
       pokemonName: DataTypes.STRING,
       speciesId: DataTypes.INTEGER,

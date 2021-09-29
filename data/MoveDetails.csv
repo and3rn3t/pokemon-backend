@@ -1,845 +1,845 @@
-﻿id,moveId,moveName,power,pp,accuracy,priority,targetName
-1,1,pound,40,35,100,0,selected-pokemon
-2,2,karate-chop,50,25,100,0,selected-pokemon
-3,3,double-slap,15,10,85,0,selected-pokemon
-4,4,comet-punch,18,15,85,0,selected-pokemon
-5,5,mega-punch,80,20,85,0,selected-pokemon
-6,6,pay-day,40,20,100,0,selected-pokemon
-7,7,fire-punch,75,15,100,0,selected-pokemon
-8,8,ice-punch,75,15,100,0,selected-pokemon
-9,9,thunder-punch,75,15,100,0,selected-pokemon
-10,10,scratch,40,35,100,0,selected-pokemon
-11,11,vice-grip,55,30,100,0,selected-pokemon
-12,12,guillotine,,5,30,0,selected-pokemon
-13,13,razor-wind,80,10,100,0,all-opponents
-14,14,swords-dance,,20,,0,user
-15,15,cut,50,30,95,0,selected-pokemon
-16,16,gust,40,35,100,0,selected-pokemon
-17,17,wing-attack,60,35,100,0,selected-pokemon
-18,18,whirlwind,,20,,-6,selected-pokemon
-19,19,fly,90,15,95,0,selected-pokemon
-20,20,bind,15,20,85,0,selected-pokemon
-21,21,slam,80,20,75,0,selected-pokemon
-22,22,vine-whip,45,25,100,0,selected-pokemon
-23,23,stomp,65,20,100,0,selected-pokemon
-24,24,double-kick,30,30,100,0,selected-pokemon
-25,25,mega-kick,120,5,75,0,selected-pokemon
-26,26,jump-kick,100,10,95,0,selected-pokemon
-27,27,rolling-kick,60,15,85,0,selected-pokemon
-28,28,sand-attack,,15,100,0,selected-pokemon
-29,29,headbutt,70,15,100,0,selected-pokemon
-30,30,horn-attack,65,25,100,0,selected-pokemon
-31,31,fury-attack,15,20,85,0,selected-pokemon
-32,32,horn-drill,,5,30,0,selected-pokemon
-33,33,tackle,40,35,100,0,selected-pokemon
-34,34,body-slam,85,15,100,0,selected-pokemon
-35,35,wrap,15,20,90,0,selected-pokemon
-36,36,take-down,90,20,85,0,selected-pokemon
-37,37,thrash,120,10,100,0,random-opponent
-38,38,double-edge,120,15,100,0,selected-pokemon
-39,39,tail-whip,,30,100,0,all-opponents
-40,40,poison-sting,15,35,100,0,selected-pokemon
-41,41,twineedle,25,20,100,0,selected-pokemon
-42,42,pin-missile,25,20,95,0,selected-pokemon
-43,43,leer,,30,100,0,all-opponents
-44,44,bite,60,25,100,0,selected-pokemon
-45,45,growl,,40,100,0,all-opponents
-46,46,roar,,20,,-6,selected-pokemon
-47,47,sing,,15,55,0,selected-pokemon
-48,48,supersonic,,20,55,0,selected-pokemon
-49,49,sonic-boom,,20,90,0,selected-pokemon
-50,50,disable,,20,100,0,selected-pokemon
-51,51,acid,40,30,100,0,all-opponents
-52,52,ember,40,25,100,0,selected-pokemon
-53,53,flamethrower,90,15,100,0,selected-pokemon
-54,54,mist,,30,,0,users-field
-55,55,water-gun,40,25,100,0,selected-pokemon
-56,56,hydro-pump,110,5,80,0,selected-pokemon
-57,57,surf,90,15,100,0,all-other-pokemon
-58,58,ice-beam,90,10,100,0,selected-pokemon
-59,59,blizzard,110,5,70,0,all-opponents
-60,60,psybeam,65,20,100,0,selected-pokemon
-61,61,bubble-beam,65,20,100,0,selected-pokemon
-62,62,aurora-beam,65,20,100,0,selected-pokemon
-63,63,hyper-beam,150,5,90,0,selected-pokemon
-64,64,peck,35,35,100,0,selected-pokemon
-65,65,drill-peck,80,20,100,0,selected-pokemon
-66,66,submission,80,20,80,0,selected-pokemon
-67,67,low-kick,,20,100,0,selected-pokemon
-68,68,counter,,20,100,-5,specific-move
-69,69,seismic-toss,,20,100,0,selected-pokemon
-70,70,strength,80,15,100,0,selected-pokemon
-71,71,absorb,20,25,100,0,selected-pokemon
-72,72,mega-drain,40,15,100,0,selected-pokemon
-73,73,leech-seed,,10,90,0,selected-pokemon
-74,74,growth,,20,,0,user
-75,75,razor-leaf,55,25,95,0,all-opponents
-76,76,solar-beam,120,10,100,0,selected-pokemon
-77,77,poison-powder,,35,75,0,selected-pokemon
-78,78,stun-spore,,30,75,0,selected-pokemon
-79,79,sleep-powder,,15,75,0,selected-pokemon
-80,80,petal-dance,120,10,100,0,random-opponent
-81,81,string-shot,,40,95,0,all-opponents
-82,82,dragon-rage,,10,100,0,selected-pokemon
-83,83,fire-spin,35,15,85,0,selected-pokemon
-84,84,thunder-shock,40,30,100,0,selected-pokemon
-85,85,thunderbolt,90,15,100,0,selected-pokemon
-86,86,thunder-wave,,20,90,0,selected-pokemon
-87,87,thunder,110,10,70,0,selected-pokemon
-88,88,rock-throw,50,15,90,0,selected-pokemon
-89,89,earthquake,100,10,100,0,all-other-pokemon
-90,90,fissure,,5,30,0,selected-pokemon
-91,91,dig,80,10,100,0,selected-pokemon
-92,92,toxic,,10,90,0,selected-pokemon
-93,93,confusion,50,25,100,0,selected-pokemon
-94,94,psychic,90,10,100,0,selected-pokemon
-95,95,hypnosis,,20,60,0,selected-pokemon
-96,96,meditate,,40,,0,user
-97,97,agility,,30,,0,user
-98,98,quick-attack,40,30,100,1,selected-pokemon
-99,99,rage,20,20,100,0,selected-pokemon
-100,100,teleport,,20,,-6,user
-101,101,night-shade,,15,100,0,selected-pokemon
-102,102,mimic,,10,,0,selected-pokemon
-103,103,screech,,40,85,0,selected-pokemon
-104,104,double-team,,15,,0,user
-105,105,recover,,10,,0,user
-106,106,harden,,30,,0,user
-107,107,minimize,,10,,0,user
-108,108,smokescreen,,20,100,0,selected-pokemon
-109,109,confuse-ray,,10,100,0,selected-pokemon
-110,110,withdraw,,40,,0,user
-111,111,defense-curl,,40,,0,user
-112,112,barrier,,20,,0,user
-113,113,light-screen,,30,,0,users-field
-114,114,haze,,30,,0,entire-field
-115,115,reflect,,20,,0,users-field
-116,116,focus-energy,,30,,0,user
-117,117,bide,,10,,1,user
-118,118,metronome,,10,,0,user
-119,119,mirror-move,,20,,0,selected-pokemon
-120,120,self-destruct,200,5,100,0,all-other-pokemon
-121,121,egg-bomb,100,10,75,0,selected-pokemon
-122,122,lick,30,30,100,0,selected-pokemon
-123,123,smog,30,20,70,0,selected-pokemon
-124,124,sludge,65,20,100,0,selected-pokemon
-125,125,bone-club,65,20,85,0,selected-pokemon
-126,126,fire-blast,110,5,85,0,selected-pokemon
-127,127,waterfall,80,15,100,0,selected-pokemon
-128,128,clamp,35,15,85,0,selected-pokemon
-129,129,swift,60,20,,0,all-opponents
-130,130,skull-bash,130,10,100,0,selected-pokemon
-131,131,spike-cannon,20,15,100,0,selected-pokemon
-132,132,constrict,10,35,100,0,selected-pokemon
-133,133,amnesia,,20,,0,user
-134,134,kinesis,,15,80,0,selected-pokemon
-135,135,soft-boiled,,10,,0,user
-136,136,high-jump-kick,130,10,90,0,selected-pokemon
-137,137,glare,,30,100,0,selected-pokemon
-138,138,dream-eater,100,15,100,0,selected-pokemon
-139,139,poison-gas,,40,90,0,all-opponents
-140,140,barrage,15,20,85,0,selected-pokemon
-141,141,leech-life,80,10,100,0,selected-pokemon
-142,142,lovely-kiss,,10,75,0,selected-pokemon
-143,143,sky-attack,140,5,90,0,selected-pokemon
-144,144,transform,,10,,0,selected-pokemon
-145,145,bubble,40,30,100,0,all-opponents
-146,146,dizzy-punch,70,10,100,0,selected-pokemon
-147,147,spore,,15,100,0,selected-pokemon
-148,148,flash,,20,100,0,selected-pokemon
-149,149,psywave,,15,100,0,selected-pokemon
-150,150,splash,,40,,0,user
-151,151,acid-armor,,20,,0,user
-152,152,crabhammer,100,10,90,0,selected-pokemon
-153,153,explosion,250,5,100,0,all-other-pokemon
-154,154,fury-swipes,18,15,80,0,selected-pokemon
-155,155,bonemerang,50,10,90,0,selected-pokemon
-156,156,rest,,10,,0,user
-157,157,rock-slide,75,10,90,0,all-opponents
-158,158,hyper-fang,80,15,90,0,selected-pokemon
-159,159,sharpen,,30,,0,user
-160,160,conversion,,30,,0,user
-161,161,tri-attack,80,10,100,0,selected-pokemon
-162,162,super-fang,,10,90,0,selected-pokemon
-163,163,slash,70,20,100,0,selected-pokemon
-164,164,substitute,,10,,0,user
-165,165,struggle,50,1,,0,random-opponent
-166,166,sketch,,1,,0,selected-pokemon
-167,167,triple-kick,10,10,90,0,selected-pokemon
-168,168,thief,60,25,100,0,selected-pokemon
-169,169,spider-web,,10,,0,selected-pokemon
-170,170,mind-reader,,5,,0,selected-pokemon
-171,171,nightmare,,15,100,0,selected-pokemon
-172,172,flame-wheel,60,25,100,0,selected-pokemon
-173,173,snore,50,15,100,0,selected-pokemon
-174,174,curse,,10,,0,specific-move
-175,175,flail,,15,100,0,selected-pokemon
-176,176,conversion-2,,30,,0,selected-pokemon
-177,177,aeroblast,100,5,95,0,selected-pokemon
-178,178,cotton-spore,,40,100,0,all-opponents
-179,179,reversal,,15,100,0,selected-pokemon
-180,180,spite,,10,100,0,selected-pokemon
-181,181,powder-snow,40,25,100,0,all-opponents
-182,182,protect,,10,,4,user
-183,183,mach-punch,40,30,100,1,selected-pokemon
-184,184,scary-face,,10,100,0,selected-pokemon
-185,185,feint-attack,60,20,,0,selected-pokemon
-186,186,sweet-kiss,,10,75,0,selected-pokemon
-187,187,belly-drum,,10,,0,user
-188,188,sludge-bomb,90,10,100,0,selected-pokemon
-189,189,mud-slap,20,10,100,0,selected-pokemon
-190,190,octazooka,65,10,85,0,selected-pokemon
-191,191,spikes,,20,,0,opponents-field
-192,192,zap-cannon,120,5,50,0,selected-pokemon
-193,193,foresight,,40,,0,selected-pokemon
-194,194,destiny-bond,,5,,0,user
-195,195,perish-song,,5,,0,all-pokemon
-196,196,icy-wind,55,15,95,0,all-opponents
-197,197,detect,,5,,4,user
-198,198,bone-rush,25,10,90,0,selected-pokemon
-199,199,lock-on,,5,,0,selected-pokemon
-200,200,outrage,120,10,100,0,random-opponent
-201,201,sandstorm,,10,,0,entire-field
-202,202,giga-drain,75,10,100,0,selected-pokemon
-203,203,endure,,10,,4,user
-204,204,charm,,20,100,0,selected-pokemon
-205,205,rollout,30,20,90,0,selected-pokemon
-206,206,false-swipe,40,40,100,0,selected-pokemon
-207,207,swagger,,15,85,0,selected-pokemon
-208,208,milk-drink,,10,,0,user
-209,209,spark,65,20,100,0,selected-pokemon
-210,210,fury-cutter,40,20,95,0,selected-pokemon
-211,211,steel-wing,70,25,90,0,selected-pokemon
-212,212,mean-look,,5,,0,selected-pokemon
-213,213,attract,,15,100,0,selected-pokemon
-214,214,sleep-talk,,10,,0,user
-215,215,heal-bell,,5,,0,user-and-allies
-216,216,return,,20,100,0,selected-pokemon
-217,217,present,,15,90,0,selected-pokemon
-218,218,frustration,,20,100,0,selected-pokemon
-219,219,safeguard,,25,,0,users-field
-220,220,pain-split,,20,,0,selected-pokemon
-221,221,sacred-fire,100,5,95,0,selected-pokemon
-222,222,magnitude,,30,100,0,all-other-pokemon
-223,223,dynamic-punch,100,5,50,0,selected-pokemon
-224,224,megahorn,120,10,85,0,selected-pokemon
-225,225,dragon-breath,60,20,100,0,selected-pokemon
-226,226,baton-pass,,40,,0,user
-227,227,encore,,5,100,0,selected-pokemon
-228,228,pursuit,40,20,100,0,selected-pokemon
-229,229,rapid-spin,50,40,100,0,selected-pokemon
-230,230,sweet-scent,,20,100,0,all-opponents
-231,231,iron-tail,100,15,75,0,selected-pokemon
-232,232,metal-claw,50,35,95,0,selected-pokemon
-233,233,vital-throw,70,10,,-1,selected-pokemon
-234,234,morning-sun,,5,,0,user
-235,235,synthesis,,5,,0,user
-236,236,moonlight,,5,,0,user
-237,237,hidden-power,60,15,100,0,selected-pokemon
-238,238,cross-chop,100,5,80,0,selected-pokemon
-239,239,twister,40,20,100,0,all-opponents
-240,240,rain-dance,,5,,0,entire-field
-241,241,sunny-day,,5,,0,entire-field
-242,242,crunch,80,15,100,0,selected-pokemon
-243,243,mirror-coat,,20,100,-5,specific-move
-244,244,psych-up,,10,,0,selected-pokemon
-245,245,extreme-speed,80,5,100,2,selected-pokemon
-246,246,ancient-power,60,5,100,0,selected-pokemon
-247,247,shadow-ball,80,15,100,0,selected-pokemon
-248,248,future-sight,120,10,100,0,selected-pokemon
-249,249,rock-smash,40,15,100,0,selected-pokemon
-250,250,whirlpool,35,15,85,0,selected-pokemon
-251,251,beat-up,,10,100,0,selected-pokemon
-252,252,fake-out,40,10,100,3,selected-pokemon
-253,253,uproar,90,10,100,0,random-opponent
-254,254,stockpile,,20,,0,user
-255,255,spit-up,,10,100,0,selected-pokemon
-256,256,swallow,,10,,0,user
-257,257,heat-wave,95,10,90,0,all-opponents
-258,258,hail,,10,,0,entire-field
-259,259,torment,,15,100,0,selected-pokemon
-260,260,flatter,,15,100,0,selected-pokemon
-261,261,will-o-wisp,,15,85,0,selected-pokemon
-262,262,memento,,10,100,0,selected-pokemon
-263,263,facade,70,20,100,0,selected-pokemon
-264,264,focus-punch,150,20,100,-3,selected-pokemon
-265,265,smelling-salts,70,10,100,0,selected-pokemon
-266,266,follow-me,,20,,2,user
-267,267,nature-power,,20,,0,selected-pokemon
-268,268,charge,,20,,0,user
-269,269,taunt,,20,100,0,selected-pokemon
-270,270,helping-hand,,20,,5,ally
-271,271,trick,,10,100,0,selected-pokemon
-272,272,role-play,,10,,0,selected-pokemon
-273,273,wish,,10,,0,user
-274,274,assist,,20,,0,user
-275,275,ingrain,,20,,0,user
-276,276,superpower,120,5,100,0,selected-pokemon
-277,277,magic-coat,,15,,4,user
-278,278,recycle,,10,,0,user
-279,279,revenge,60,10,100,-4,selected-pokemon
-280,280,brick-break,75,15,100,0,selected-pokemon
-281,281,yawn,,10,,0,selected-pokemon
-282,282,knock-off,65,20,100,0,selected-pokemon
-283,283,endeavor,,5,100,0,selected-pokemon
-284,284,eruption,150,5,100,0,all-opponents
-285,285,skill-swap,,10,,0,selected-pokemon
-286,286,imprison,,10,,0,user
-287,287,refresh,,20,,0,user
-288,288,grudge,,5,,0,user
-289,289,snatch,,10,,4,user
-290,290,secret-power,70,20,100,0,selected-pokemon
-291,291,dive,80,10,100,0,selected-pokemon
-292,292,arm-thrust,15,20,100,0,selected-pokemon
-293,293,camouflage,,20,,0,user
-294,294,tail-glow,,20,,0,user
-295,295,luster-purge,70,5,100,0,selected-pokemon
-296,296,mist-ball,70,5,100,0,selected-pokemon
-297,297,feather-dance,,15,100,0,selected-pokemon
-298,298,teeter-dance,,20,100,0,all-other-pokemon
-299,299,blaze-kick,85,10,90,0,selected-pokemon
-300,300,mud-sport,,15,,0,entire-field
-301,301,ice-ball,30,20,90,0,selected-pokemon
-302,302,needle-arm,60,15,100,0,selected-pokemon
-303,303,slack-off,,10,,0,user
-304,304,hyper-voice,90,10,100,0,all-opponents
-305,305,poison-fang,50,15,100,0,selected-pokemon
-306,306,crush-claw,75,10,95,0,selected-pokemon
-307,307,blast-burn,150,5,90,0,selected-pokemon
-308,308,hydro-cannon,150,5,90,0,selected-pokemon
-309,309,meteor-mash,90,10,90,0,selected-pokemon
-310,310,astonish,30,15,100,0,selected-pokemon
-311,311,weather-ball,50,10,100,0,selected-pokemon
-312,312,aromatherapy,,5,,0,user-and-allies
-313,313,fake-tears,,20,100,0,selected-pokemon
-314,314,air-cutter,60,25,95,0,all-opponents
-315,315,overheat,130,5,90,0,selected-pokemon
-316,316,odor-sleuth,,40,,0,selected-pokemon
-317,317,rock-tomb,60,15,95,0,selected-pokemon
-318,318,silver-wind,60,5,100,0,selected-pokemon
-319,319,metal-sound,,40,85,0,selected-pokemon
-320,320,grass-whistle,,15,55,0,selected-pokemon
-321,321,tickle,,20,100,0,selected-pokemon
-322,322,cosmic-power,,20,,0,user
-323,323,water-spout,150,5,100,0,all-opponents
-324,324,signal-beam,75,15,100,0,selected-pokemon
-325,325,shadow-punch,60,20,,0,selected-pokemon
-326,326,extrasensory,80,20,100,0,selected-pokemon
-327,327,sky-uppercut,85,15,90,0,selected-pokemon
-328,328,sand-tomb,35,15,85,0,selected-pokemon
-329,329,sheer-cold,,5,30,0,selected-pokemon
-330,330,muddy-water,90,10,85,0,all-opponents
-331,331,bullet-seed,25,30,100,0,selected-pokemon
-332,332,aerial-ace,60,20,,0,selected-pokemon
-333,333,icicle-spear,25,30,100,0,selected-pokemon
-334,334,iron-defense,,15,,0,user
-335,335,block,,5,,0,selected-pokemon
-336,336,howl,,40,,0,user-and-allies
-337,337,dragon-claw,80,15,100,0,selected-pokemon
-338,338,frenzy-plant,150,5,90,0,selected-pokemon
-339,339,bulk-up,,20,,0,user
-340,340,bounce,85,5,85,0,selected-pokemon
-341,341,mud-shot,55,15,95,0,selected-pokemon
-342,342,poison-tail,50,25,100,0,selected-pokemon
-343,343,covet,60,25,100,0,selected-pokemon
-344,344,volt-tackle,120,15,100,0,selected-pokemon
-345,345,magical-leaf,60,20,,0,selected-pokemon
-346,346,water-sport,,15,,0,entire-field
-347,347,calm-mind,,20,,0,user
-348,348,leaf-blade,90,15,100,0,selected-pokemon
-349,349,dragon-dance,,20,,0,user
-350,350,rock-blast,25,10,90,0,selected-pokemon
-351,351,shock-wave,60,20,,0,selected-pokemon
-352,352,water-pulse,60,20,100,0,selected-pokemon
-353,353,doom-desire,140,5,100,0,selected-pokemon
-354,354,psycho-boost,140,5,90,0,selected-pokemon
-355,355,roost,,10,,0,user
-356,356,gravity,,5,,0,entire-field
-357,357,miracle-eye,,40,,0,selected-pokemon
-358,358,wake-up-slap,70,10,100,0,selected-pokemon
-359,359,hammer-arm,100,10,90,0,selected-pokemon
-360,360,gyro-ball,,5,100,0,selected-pokemon
-361,361,healing-wish,,10,,0,user
-362,362,brine,65,10,100,0,selected-pokemon
-363,363,natural-gift,,15,100,0,selected-pokemon
-364,364,feint,30,10,100,2,selected-pokemon
-365,365,pluck,60,20,100,0,selected-pokemon
-366,366,tailwind,,15,,0,users-field
-367,367,acupressure,,30,,0,user-or-ally
-368,368,metal-burst,,10,100,0,specific-move
-369,369,u-turn,70,20,100,0,selected-pokemon
-370,370,close-combat,120,5,100,0,selected-pokemon
-371,371,payback,50,10,100,0,selected-pokemon
-372,372,assurance,60,10,100,0,selected-pokemon
-373,373,embargo,,15,100,0,selected-pokemon
-374,374,fling,,10,100,0,selected-pokemon
-375,375,psycho-shift,,10,100,0,selected-pokemon
-376,376,trump-card,,5,,0,selected-pokemon
-377,377,heal-block,,15,100,0,all-opponents
-378,378,wring-out,,5,100,0,selected-pokemon
-379,379,power-trick,,10,,0,user
-380,380,gastro-acid,,10,100,0,selected-pokemon
-381,381,lucky-chant,,30,,0,users-field
-382,382,me-first,,20,,0,selected-pokemon-me-first
-383,383,copycat,,20,,0,user
-384,384,power-swap,,10,,0,selected-pokemon
-385,385,guard-swap,,10,,0,selected-pokemon
-386,386,punishment,,5,100,0,selected-pokemon
-387,387,last-resort,140,5,100,0,selected-pokemon
-388,388,worry-seed,,10,100,0,selected-pokemon
-389,389,sucker-punch,70,5,100,1,selected-pokemon
-390,390,toxic-spikes,,20,,0,opponents-field
-391,391,heart-swap,,10,,0,selected-pokemon
-392,392,aqua-ring,,20,,0,user
-393,393,magnet-rise,,10,,0,user
-394,394,flare-blitz,120,15,100,0,selected-pokemon
-395,395,force-palm,60,10,100,0,selected-pokemon
-396,396,aura-sphere,80,20,,0,selected-pokemon
-397,397,rock-polish,,20,,0,user
-398,398,poison-jab,80,20,100,0,selected-pokemon
-399,399,dark-pulse,80,15,100,0,selected-pokemon
-400,400,night-slash,70,15,100,0,selected-pokemon
-401,401,aqua-tail,90,10,90,0,selected-pokemon
-402,402,seed-bomb,80,15,100,0,selected-pokemon
-403,403,air-slash,75,15,95,0,selected-pokemon
-404,404,x-scissor,80,15,100,0,selected-pokemon
-405,405,bug-buzz,90,10,100,0,selected-pokemon
-406,406,dragon-pulse,85,10,100,0,selected-pokemon
-407,407,dragon-rush,100,10,75,0,selected-pokemon
-408,408,power-gem,80,20,100,0,selected-pokemon
-409,409,drain-punch,75,10,100,0,selected-pokemon
-410,410,vacuum-wave,40,30,100,1,selected-pokemon
-411,411,focus-blast,120,5,70,0,selected-pokemon
-412,412,energy-ball,90,10,100,0,selected-pokemon
-413,413,brave-bird,120,15,100,0,selected-pokemon
-414,414,earth-power,90,10,100,0,selected-pokemon
-415,415,switcheroo,,10,100,0,selected-pokemon
-416,416,giga-impact,150,5,90,0,selected-pokemon
-417,417,nasty-plot,,20,,0,user
-418,418,bullet-punch,40,30,100,1,selected-pokemon
-419,419,avalanche,60,10,100,-4,selected-pokemon
-420,420,ice-shard,40,30,100,1,selected-pokemon
-421,421,shadow-claw,70,15,100,0,selected-pokemon
-422,422,thunder-fang,65,15,95,0,selected-pokemon
-423,423,ice-fang,65,15,95,0,selected-pokemon
-424,424,fire-fang,65,15,95,0,selected-pokemon
-425,425,shadow-sneak,40,30,100,1,selected-pokemon
-426,426,mud-bomb,65,10,85,0,selected-pokemon
-427,427,psycho-cut,70,20,100,0,selected-pokemon
-428,428,zen-headbutt,80,15,90,0,selected-pokemon
-429,429,mirror-shot,65,10,85,0,selected-pokemon
-430,430,flash-cannon,80,10,100,0,selected-pokemon
-431,431,rock-climb,90,20,85,0,selected-pokemon
-432,432,defog,,15,,0,selected-pokemon
-433,433,trick-room,,5,,-7,entire-field
-434,434,draco-meteor,130,5,90,0,selected-pokemon
-435,435,discharge,80,15,100,0,all-other-pokemon
-436,436,lava-plume,80,15,100,0,all-other-pokemon
-437,437,leaf-storm,130,5,90,0,selected-pokemon
-438,438,power-whip,120,10,85,0,selected-pokemon
-439,439,rock-wrecker,150,5,90,0,selected-pokemon
-440,440,cross-poison,70,20,100,0,selected-pokemon
-441,441,gunk-shot,120,5,80,0,selected-pokemon
-442,442,iron-head,80,15,100,0,selected-pokemon
-443,443,magnet-bomb,60,20,,0,selected-pokemon
-444,444,stone-edge,100,5,80,0,selected-pokemon
-445,445,captivate,,20,100,0,all-opponents
-446,446,stealth-rock,,20,,0,opponents-field
-447,447,grass-knot,,20,100,0,selected-pokemon
-448,448,chatter,65,20,100,0,selected-pokemon
-449,449,judgment,100,10,100,0,selected-pokemon
-450,450,bug-bite,60,20,100,0,selected-pokemon
-451,451,charge-beam,50,10,90,0,selected-pokemon
-452,452,wood-hammer,120,15,100,0,selected-pokemon
-453,453,aqua-jet,40,20,100,1,selected-pokemon
-454,454,attack-order,90,15,100,0,selected-pokemon
-455,455,defend-order,,10,,0,user
-456,456,heal-order,,10,,0,user
-457,457,head-smash,150,5,80,0,selected-pokemon
-458,458,double-hit,35,10,90,0,selected-pokemon
-459,459,roar-of-time,150,5,90,0,selected-pokemon
-460,460,spacial-rend,100,5,95,0,selected-pokemon
-461,461,lunar-dance,,10,,0,user
-462,462,crush-grip,,5,100,0,selected-pokemon
-463,463,magma-storm,100,5,75,0,selected-pokemon
-464,464,dark-void,,10,50,0,all-opponents
-465,465,seed-flare,120,5,85,0,selected-pokemon
-466,466,ominous-wind,60,5,100,0,selected-pokemon
-467,467,shadow-force,120,5,100,0,selected-pokemon
-468,468,hone-claws,,15,,0,user
-469,469,wide-guard,,10,,3,users-field
-470,470,guard-split,,10,,0,selected-pokemon
-471,471,power-split,,10,,0,selected-pokemon
-472,472,wonder-room,,10,,0,entire-field
-473,473,psyshock,80,10,100,0,selected-pokemon
-474,474,venoshock,65,10,100,0,selected-pokemon
-475,475,autotomize,,15,,0,user
-476,476,rage-powder,,20,,2,user
-477,477,telekinesis,,15,,0,selected-pokemon
-478,478,magic-room,,10,,0,entire-field
-479,479,smack-down,50,15,100,0,selected-pokemon
-480,480,storm-throw,60,10,100,0,selected-pokemon
-481,481,flame-burst,70,15,100,0,selected-pokemon
-482,482,sludge-wave,95,10,100,0,all-other-pokemon
-483,483,quiver-dance,,20,,0,user
-484,484,heavy-slam,,10,100,0,selected-pokemon
-485,485,synchronoise,120,10,100,0,all-other-pokemon
-486,486,electro-ball,,10,100,0,selected-pokemon
-487,487,soak,,20,100,0,selected-pokemon
-488,488,flame-charge,50,20,100,0,selected-pokemon
-489,489,coil,,20,,0,user
-490,490,low-sweep,65,20,100,0,selected-pokemon
-491,491,acid-spray,40,20,100,0,selected-pokemon
-492,492,foul-play,95,15,100,0,selected-pokemon
-493,493,simple-beam,,15,100,0,selected-pokemon
-494,494,entrainment,,15,100,0,selected-pokemon
-495,495,after-you,,15,,0,selected-pokemon
-496,496,round,60,15,100,0,selected-pokemon
-497,497,echoed-voice,40,15,100,0,selected-pokemon
-498,498,chip-away,70,20,100,0,selected-pokemon
-499,499,clear-smog,50,15,,0,selected-pokemon
-500,500,stored-power,20,10,100,0,selected-pokemon
-501,501,quick-guard,,15,,3,users-field
-502,502,ally-switch,,15,,2,user
-503,503,scald,80,15,100,0,selected-pokemon
-504,504,shell-smash,,15,,0,user
-505,505,heal-pulse,,10,,0,selected-pokemon
-506,506,hex,65,10,100,0,selected-pokemon
-507,507,sky-drop,60,10,100,0,selected-pokemon
-508,508,shift-gear,,10,,0,user
-509,509,circle-throw,60,10,90,-6,selected-pokemon
-510,510,incinerate,60,15,100,0,all-opponents
-511,511,quash,,15,100,0,selected-pokemon
-512,512,acrobatics,55,15,100,0,selected-pokemon
-513,513,reflect-type,,15,,0,selected-pokemon
-514,514,retaliate,70,5,100,0,selected-pokemon
-515,515,final-gambit,,5,100,0,selected-pokemon
-516,516,bestow,,15,,0,selected-pokemon
-517,517,inferno,100,5,50,0,selected-pokemon
-518,518,water-pledge,80,10,100,0,selected-pokemon
-519,519,fire-pledge,80,10,100,0,selected-pokemon
-520,520,grass-pledge,80,10,100,0,selected-pokemon
-521,521,volt-switch,70,20,100,0,selected-pokemon
-522,522,struggle-bug,50,20,100,0,all-opponents
-523,523,bulldoze,60,20,100,0,all-other-pokemon
-524,524,frost-breath,60,10,90,0,selected-pokemon
-525,525,dragon-tail,60,10,90,-6,selected-pokemon
-526,526,work-up,,30,,0,user
-527,527,electroweb,55,15,95,0,all-opponents
-528,528,wild-charge,90,15,100,0,selected-pokemon
-529,529,drill-run,80,10,95,0,selected-pokemon
-530,530,dual-chop,40,15,90,0,selected-pokemon
-531,531,heart-stamp,60,25,100,0,selected-pokemon
-532,532,horn-leech,75,10,100,0,selected-pokemon
-533,533,sacred-sword,90,15,100,0,selected-pokemon
-534,534,razor-shell,75,10,95,0,selected-pokemon
-535,535,heat-crash,,10,100,0,selected-pokemon
-536,536,leaf-tornado,65,10,90,0,selected-pokemon
-537,537,steamroller,65,20,100,0,selected-pokemon
-538,538,cotton-guard,,10,,0,user
-539,539,night-daze,85,10,95,0,selected-pokemon
-540,540,psystrike,100,10,100,0,selected-pokemon
-541,541,tail-slap,25,10,85,0,selected-pokemon
-542,542,hurricane,110,10,70,0,selected-pokemon
-543,543,head-charge,120,15,100,0,selected-pokemon
-544,544,gear-grind,50,15,85,0,selected-pokemon
-545,545,searing-shot,100,5,100,0,all-other-pokemon
-546,546,techno-blast,120,5,100,0,selected-pokemon
-547,547,relic-song,75,10,100,0,all-opponents
-548,548,secret-sword,85,10,100,0,selected-pokemon
-549,549,glaciate,65,10,95,0,all-opponents
-550,550,bolt-strike,130,5,85,0,selected-pokemon
-551,551,blue-flare,130,5,85,0,selected-pokemon
-552,552,fiery-dance,80,10,100,0,selected-pokemon
-553,553,freeze-shock,140,5,90,0,selected-pokemon
-554,554,ice-burn,140,5,90,0,selected-pokemon
-555,555,snarl,55,15,95,0,all-opponents
-556,556,icicle-crash,85,10,90,0,selected-pokemon
-557,557,v-create,180,5,95,0,selected-pokemon
-558,558,fusion-flare,100,5,100,0,selected-pokemon
-559,559,fusion-bolt,100,5,100,0,selected-pokemon
-560,560,flying-press,100,10,95,0,selected-pokemon
-561,561,mat-block,,10,,0,users-field
-562,562,belch,120,10,90,0,selected-pokemon
-563,563,rototiller,,10,,0,all-pokemon
-564,564,sticky-web,,20,,0,opponents-field
-565,565,fell-stinger,50,25,100,0,selected-pokemon
-566,566,phantom-force,90,10,100,0,selected-pokemon
-567,567,trick-or-treat,,20,100,0,selected-pokemon
-568,568,noble-roar,,30,100,0,selected-pokemon
-569,569,ion-deluge,,25,,1,entire-field
-570,570,parabolic-charge,65,20,100,0,all-other-pokemon
-571,571,forests-curse,,20,100,0,selected-pokemon
-572,572,petal-blizzard,90,15,100,0,all-other-pokemon
-573,573,freeze-dry,70,20,100,0,selected-pokemon
-574,574,disarming-voice,40,15,,0,all-opponents
-575,575,parting-shot,,20,100,0,selected-pokemon
-576,576,topsy-turvy,,20,,0,selected-pokemon
-577,577,draining-kiss,50,10,100,0,selected-pokemon
-578,578,crafty-shield,,10,,3,users-field
-579,579,flower-shield,,10,,0,all-pokemon
-580,580,grassy-terrain,,10,,0,entire-field
-581,581,misty-terrain,,10,,0,entire-field
-582,582,electrify,,20,,0,selected-pokemon
-583,583,play-rough,90,10,90,0,selected-pokemon
-584,584,fairy-wind,40,30,100,0,selected-pokemon
-585,585,moonblast,95,15,100,0,selected-pokemon
-586,586,boomburst,140,10,100,0,all-other-pokemon
-587,587,fairy-lock,,10,,0,entire-field
-588,588,kings-shield,,10,,4,user
-589,589,play-nice,,20,,0,selected-pokemon
-590,590,confide,,20,,0,selected-pokemon
-591,591,diamond-storm,100,5,95,0,all-opponents
-592,592,steam-eruption,110,5,95,0,selected-pokemon
-593,593,hyperspace-hole,80,5,,0,selected-pokemon
-594,594,water-shuriken,15,20,100,1,selected-pokemon
-595,595,mystical-fire,75,10,100,0,selected-pokemon
-596,596,spiky-shield,,10,,4,user
-597,597,aromatic-mist,,20,,0,ally
-598,598,eerie-impulse,,15,100,0,selected-pokemon
-599,599,venom-drench,,20,100,0,all-opponents
-600,600,powder,,20,100,1,selected-pokemon
-601,601,geomancy,,10,,0,user
-602,602,magnetic-flux,,20,,0,user-and-allies
-603,603,happy-hour,,30,,0,users-field
-604,604,electric-terrain,,10,,0,entire-field
-605,605,dazzling-gleam,80,10,100,0,all-opponents
-606,606,celebrate,,40,,0,user
-607,607,hold-hands,,40,,0,ally
-608,608,baby-doll-eyes,,30,100,1,selected-pokemon
-609,609,nuzzle,20,20,100,0,selected-pokemon
-610,610,hold-back,40,40,100,0,selected-pokemon
-611,611,infestation,20,20,100,0,selected-pokemon
-612,612,power-up-punch,40,20,100,0,selected-pokemon
-613,613,oblivion-wing,80,10,100,0,selected-pokemon
-614,614,thousand-arrows,90,10,100,0,all-opponents
-615,615,thousand-waves,90,10,100,0,all-opponents
-616,616,lands-wrath,90,10,100,0,all-opponents
-617,617,light-of-ruin,140,5,90,0,selected-pokemon
-618,618,origin-pulse,110,10,85,0,all-opponents
-619,619,precipice-blades,120,10,85,0,all-opponents
-620,620,dragon-ascent,120,5,100,0,selected-pokemon
-621,621,hyperspace-fury,100,5,,0,selected-pokemon
-622,622,breakneck-blitz--physical,,1,,0,selected-pokemon
-623,623,breakneck-blitz--special,,1,,0,selected-pokemon
-624,624,all-out-pummeling--physical,,1,,0,selected-pokemon
-625,625,all-out-pummeling--special,,1,,0,selected-pokemon
-626,626,supersonic-skystrike--physical,,1,,0,selected-pokemon
-627,627,supersonic-skystrike--special,,1,,0,selected-pokemon
-628,628,acid-downpour--physical,,1,,0,selected-pokemon
-629,629,acid-downpour--special,,1,,0,selected-pokemon
-630,630,tectonic-rage--physical,,1,,0,selected-pokemon
-631,631,tectonic-rage--special,,1,,0,selected-pokemon
-632,632,continental-crush--physical,,1,,0,selected-pokemon
-633,633,continental-crush--special,,1,,0,selected-pokemon
-634,634,savage-spin-out--physical,,1,,0,selected-pokemon
-635,635,savage-spin-out--special,,1,,0,selected-pokemon
-636,636,never-ending-nightmare--physical,,1,,0,selected-pokemon
-637,637,never-ending-nightmare--special,,1,,0,selected-pokemon
-638,638,corkscrew-crash--physical,,1,,0,selected-pokemon
-639,639,corkscrew-crash--special,,1,,0,selected-pokemon
-640,640,inferno-overdrive--physical,,1,,0,selected-pokemon
-641,641,inferno-overdrive--special,,1,,0,selected-pokemon
-642,642,hydro-vortex--physical,,1,,0,selected-pokemon
-643,643,hydro-vortex--special,,1,,0,selected-pokemon
-644,644,bloom-doom--physical,,1,,0,selected-pokemon
-645,645,bloom-doom--special,,1,,0,selected-pokemon
-646,646,gigavolt-havoc--physical,,1,,0,selected-pokemon
-647,647,gigavolt-havoc--special,,1,,0,selected-pokemon
-648,648,shattered-psyche--physical,,1,,0,selected-pokemon
-649,649,shattered-psyche--special,,1,,0,selected-pokemon
-650,650,subzero-slammer--physical,,1,,0,selected-pokemon
-651,651,subzero-slammer--special,,1,,0,selected-pokemon
-652,652,devastating-drake--physical,,1,,0,selected-pokemon
-653,653,devastating-drake--special,,1,,0,selected-pokemon
-654,654,black-hole-eclipse--physical,,1,,0,selected-pokemon
-655,655,black-hole-eclipse--special,,1,,0,selected-pokemon
-656,656,twinkle-tackle--physical,,1,,0,selected-pokemon
-657,657,twinkle-tackle--special,,1,,0,selected-pokemon
-658,658,catastropika,210,1,,0,selected-pokemon
-659,659,shore-up,,10,,0,user
-660,660,first-impression,90,10,100,2,selected-pokemon
-661,661,baneful-bunker,,10,,4,user
-662,662,spirit-shackle,80,10,100,0,selected-pokemon
-663,663,darkest-lariat,85,10,100,0,selected-pokemon
-664,664,sparkling-aria,90,10,100,0,all-other-pokemon
-665,665,ice-hammer,100,10,90,0,selected-pokemon
-666,666,floral-healing,,10,,0,selected-pokemon
-667,667,high-horsepower,95,10,95,0,selected-pokemon
-668,668,strength-sap,,10,100,0,selected-pokemon
-669,669,solar-blade,125,10,100,0,selected-pokemon
-670,670,leafage,40,40,100,0,selected-pokemon
-671,671,spotlight,,15,,3,selected-pokemon
-672,672,toxic-thread,,20,100,0,selected-pokemon
-673,673,laser-focus,,30,,0,user
-674,674,gear-up,,20,,0,user-and-allies
-675,675,throat-chop,80,15,100,0,selected-pokemon
-676,676,pollen-puff,90,15,100,0,selected-pokemon
-677,677,anchor-shot,80,20,100,0,selected-pokemon
-678,678,psychic-terrain,,10,,0,entire-field
-679,679,lunge,80,15,100,0,selected-pokemon
-680,680,fire-lash,80,15,100,0,selected-pokemon
-681,681,power-trip,20,10,100,0,selected-pokemon
-682,682,burn-up,130,5,100,0,selected-pokemon
-683,683,speed-swap,,10,,0,selected-pokemon
-684,684,smart-strike,70,10,,0,selected-pokemon
-685,685,purify,,20,,0,selected-pokemon
-686,686,revelation-dance,90,15,100,0,selected-pokemon
-687,687,core-enforcer,100,10,100,0,all-opponents
-688,688,trop-kick,70,15,100,0,selected-pokemon
-689,689,instruct,,15,,0,selected-pokemon
-690,690,beak-blast,100,15,100,-3,selected-pokemon
-691,691,clanging-scales,110,5,100,0,all-opponents
-692,692,dragon-hammer,90,15,100,0,selected-pokemon
-693,693,brutal-swing,60,20,100,0,all-other-pokemon
-694,694,aurora-veil,,20,,0,users-field
-695,695,sinister-arrow-raid,180,1,,0,selected-pokemon
-696,696,malicious-moonsault,180,1,,0,selected-pokemon
-697,697,oceanic-operetta,195,1,,0,selected-pokemon
-698,698,guardian-of-alola,,1,,0,selected-pokemon
-699,699,soul-stealing-7-star-strike,195,1,,0,selected-pokemon
-700,700,stoked-sparksurfer,175,1,,0,selected-pokemon
-701,701,pulverizing-pancake,210,1,,0,selected-pokemon
-702,702,extreme-evoboost,,1,,0,user
-703,703,genesis-supernova,185,1,,0,selected-pokemon
-704,704,shell-trap,150,5,100,-3,all-opponents
-705,705,fleur-cannon,130,5,90,0,selected-pokemon
-706,706,psychic-fangs,85,10,100,0,selected-pokemon
-707,707,stomping-tantrum,75,10,100,0,selected-pokemon
-708,708,shadow-bone,85,10,100,0,selected-pokemon
-709,709,accelerock,40,20,100,1,selected-pokemon
-710,710,liquidation,85,10,100,0,selected-pokemon
-711,711,prismatic-laser,160,10,100,0,selected-pokemon
-712,712,spectral-thief,90,10,100,0,selected-pokemon
-713,713,sunsteel-strike,100,5,100,0,selected-pokemon
-714,714,moongeist-beam,100,5,100,0,selected-pokemon
-715,715,tearful-look,,20,,0,selected-pokemon
-716,716,zing-zap,80,10,100,0,selected-pokemon
-717,717,natures-madness,,10,90,0,selected-pokemon
-718,718,multi-attack,120,10,100,0,selected-pokemon
-719,719,10-000-000-volt-thunderbolt,195,1,,0,selected-pokemon
-720,720,mind-blown,150,5,100,0,all-other-pokemon
-721,721,plasma-fists,100,15,100,0,selected-pokemon
-722,722,photon-geyser,100,5,100,0,selected-pokemon
-723,723,light-that-burns-the-sky,200,1,,0,selected-pokemon
-724,724,searing-sunraze-smash,200,1,,0,selected-pokemon
-725,725,menacing-moonraze-maelstrom,200,1,,0,selected-pokemon
-726,726,lets-snuggle-forever,190,1,,0,selected-pokemon
-727,727,splintered-stormshards,190,1,,0,selected-pokemon
-728,728,clangorous-soulblaze,185,1,,0,all-opponents
-729,729,zippy-zap,80,10,100,2,selected-pokemon
-730,730,splishy-splash,90,15,100,0,all-opponents
-731,731,floaty-fall,90,15,95,0,selected-pokemon
-732,732,pika-papow,,20,,0,selected-pokemon
-733,733,bouncy-bubble,60,20,100,0,selected-pokemon
-734,734,buzzy-buzz,60,20,100,0,selected-pokemon
-735,735,sizzly-slide,60,20,100,0,selected-pokemon
-736,736,glitzy-glow,80,15,95,0,selected-pokemon
-737,737,baddy-bad,80,15,95,0,selected-pokemon
-738,738,sappy-seed,100,10,90,0,selected-pokemon
-739,739,freezy-frost,100,10,90,0,selected-pokemon
-740,740,sparkly-swirl,120,5,85,0,selected-pokemon
-741,741,veevee-volley,,20,,0,selected-pokemon
-742,742,double-iron-bash,60,5,100,0,selected-pokemon
-743,743,max-guard,,10,,4,user
-744,744,dynamax-cannon,100,5,100,0,selected-pokemon
-745,745,snipe-shot,80,15,100,0,selected-pokemon
-746,746,jaw-lock,80,10,100,0,selected-pokemon
-747,747,stuff-cheeks,,10,,0,user
-748,748,no-retreat,,5,,0,user
-749,749,tar-shot,,15,100,0,selected-pokemon
-750,750,magic-powder,,20,100,0,selected-pokemon
-751,751,dragon-darts,50,10,100,0,selected-pokemon
-752,752,teatime,,10,,0,all-pokemon
-753,753,octolock,,15,100,0,selected-pokemon
-754,754,bolt-beak,85,10,100,0,selected-pokemon
-755,755,fishious-rend,85,10,100,0,selected-pokemon
-756,756,court-change,,10,100,0,entire-field
-757,757,max-flare,100,10,,0,selected-pokemon-me-first
-758,758,max-flutterby,10,10,,0,selected-pokemon-me-first
-759,759,max-lightning,10,10,,0,selected-pokemon-me-first
-760,760,max-strike,10,10,,0,selected-pokemon-me-first
-761,761,max-knuckle,10,10,,0,selected-pokemon-me-first
-762,762,max-phantasm,10,10,,0,selected-pokemon-me-first
-763,763,max-hailstorm,10,10,,0,selected-pokemon-me-first
-764,764,max-ooze,10,10,,0,selected-pokemon-me-first
-765,765,max-geyser,10,10,,0,selected-pokemon-me-first
-766,766,max-airstream,10,10,,0,selected-pokemon-me-first
-767,767,max-starfall,10,10,,0,selected-pokemon-me-first
-768,768,max-wyrmwind,10,10,,0,selected-pokemon-me-first
-769,769,max-mindstorm,10,10,,0,selected-pokemon-me-first
-770,770,max-rockfall,10,10,,0,selected-pokemon-me-first
-771,771,max-quake,10,10,,0,selected-pokemon-me-first
-772,772,max-darkness,10,10,,0,selected-pokemon-me-first
-773,773,max-overgrowth,10,10,,0,selected-pokemon-me-first
-774,774,max-steelspike,10,10,,0,selected-pokemon-me-first
-775,775,clangorous-soul,,5,100,0,user
-776,776,body-press,80,10,100,0,selected-pokemon
-777,777,decorate,,15,,0,selected-pokemon
-778,778,drum-beating,80,10,100,0,selected-pokemon
-779,779,snap-trap,35,15,100,0,selected-pokemon
-780,780,pyro-ball,120,5,90,0,selected-pokemon
-781,781,behemoth-blade,100,5,100,0,selected-pokemon
-782,782,behemoth-bash,100,5,100,0,selected-pokemon
-783,783,aura-wheel,110,10,100,0,selected-pokemon
-784,784,breaking-swipe,60,15,100,0,all-opponents
-785,785,branch-poke,40,40,100,0,selected-pokemon
-786,786,overdrive,80,10,100,0,all-opponents
-787,787,apple-acid,80,10,100,0,selected-pokemon
-788,788,grav-apple,80,10,100,0,selected-pokemon
-789,789,spirit-break,75,15,100,0,selected-pokemon
-790,790,strange-steam,90,10,95,0,selected-pokemon
-791,791,life-dew,,10,,0,user-and-allies
-792,792,obstruct,,10,100,4,user
-793,793,false-surrender,80,10,,0,selected-pokemon
-794,794,meteor-assault,150,5,100,0,selected-pokemon
-795,795,eternabeam,160,5,90,0,selected-pokemon
-796,796,steel-beam,140,5,95,0,selected-pokemon
-797,797,expanding-force,80,10,100,0,selected-pokemon
-798,798,steel-roller,130,5,100,0,selected-pokemon
-799,799,scale-shot,25,20,90,0,selected-pokemon
-800,800,meteor-beam,120,10,90,0,selected-pokemon
-801,801,shell-side-arm,90,10,100,0,selected-pokemon
-802,802,misty-explosion,100,5,100,0,all-other-pokemon
-803,803,grassy-glide,70,20,100,0,selected-pokemon
-804,804,rising-voltage,70,20,100,0,selected-pokemon
-805,805,terrain-pulse,50,10,100,0,selected-pokemon
-806,806,skitter-smack,70,10,90,0,selected-pokemon
-807,807,burning-jealousy,70,5,100,0,all-opponents
-808,808,lash-out,75,5,100,0,selected-pokemon
-809,809,poltergeist,110,5,90,0,selected-pokemon
-810,810,corrosive-gas,,40,100,0,all-other-pokemon
-811,811,coaching,,10,,0,user-and-allies
-812,812,flip-turn,60,20,100,0,selected-pokemon
-813,813,triple-axel,20,10,90,0,selected-pokemon
-814,814,dual-wingbeat,40,10,90,0,selected-pokemon
-815,815,scorching-sands,70,10,100,0,selected-pokemon
-816,816,jungle-healing,,10,,0,user-and-allies
-817,817,wicked-blow,80,5,100,0,selected-pokemon
-818,818,surging-strikes,25,5,100,0,selected-pokemon
-819,819,thunder-cage,80,15,90,0,selected-pokemon
-820,820,dragon-energy,150,5,100,0,all-opponents
-821,821,freezing-glare,90,10,100,0,selected-pokemon
-822,822,fiery-wrath,90,10,100,0,all-opponents
-823,823,thunderous-kick,90,10,100,0,selected-pokemon
-824,824,glacial-lance,130,5,100,0,all-opponents
-825,825,astral-barrage,120,5,100,0,all-opponents
-826,826,eerie-spell,80,5,100,0,selected-pokemon
-827,10001,shadow-rush,55,,100,0,selected-pokemon
-828,10002,shadow-blast,80,,100,0,selected-pokemon
-829,10003,shadow-blitz,40,,100,0,selected-pokemon
-830,10004,shadow-bolt,75,,100,0,selected-pokemon
-831,10005,shadow-break,75,,100,0,selected-pokemon
-832,10006,shadow-chill,75,,100,0,selected-pokemon
-833,10007,shadow-end,120,,60,0,selected-pokemon
-834,10008,shadow-fire,75,,100,0,selected-pokemon
-835,10009,shadow-rave,70,,100,0,opponents-field
-836,10010,shadow-storm,95,,100,0,opponents-field
-837,10011,shadow-wave,50,,100,0,opponents-field
-838,10012,shadow-down,,,100,0,opponents-field
-839,10013,shadow-half,,,100,0,entire-field
-840,10014,shadow-hold,,,,0,opponents-field
-841,10015,shadow-mist,,,100,0,opponents-field
-842,10016,shadow-panic,,,90,0,opponents-field
-843,10017,shadow-shed,,,,0,entire-field
-844,10018,shadow-sky,,,,0,entire-field
+﻿id,moveId,moveName,power,pp,accuracy,priority,targetName,createdAt,updatedAt
+1,1,pound,40,35,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+2,2,karate-chop,50,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+3,3,double-slap,15,10,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+4,4,comet-punch,18,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+5,5,mega-punch,80,20,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+6,6,pay-day,40,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+7,7,fire-punch,75,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+8,8,ice-punch,75,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+9,9,thunder-punch,75,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+10,10,scratch,40,35,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+11,11,vice-grip,55,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+12,12,guillotine,,5,30,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+13,13,razor-wind,80,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+14,14,swords-dance,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+15,15,cut,50,30,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+16,16,gust,40,35,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+17,17,wing-attack,60,35,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+18,18,whirlwind,,20,,-6,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+19,19,fly,90,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+20,20,bind,15,20,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+21,21,slam,80,20,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+22,22,vine-whip,45,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+23,23,stomp,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+24,24,double-kick,30,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+25,25,mega-kick,120,5,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+26,26,jump-kick,100,10,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+27,27,rolling-kick,60,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+28,28,sand-attack,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+29,29,headbutt,70,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+30,30,horn-attack,65,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+31,31,fury-attack,15,20,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+32,32,horn-drill,,5,30,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+33,33,tackle,40,35,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+34,34,body-slam,85,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+35,35,wrap,15,20,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+36,36,take-down,90,20,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+37,37,thrash,120,10,100,0,random-opponent,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+38,38,double-edge,120,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+39,39,tail-whip,,30,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+40,40,poison-sting,15,35,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+41,41,twineedle,25,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+42,42,pin-missile,25,20,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+43,43,leer,,30,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+44,44,bite,60,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+45,45,growl,,40,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+46,46,roar,,20,,-6,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+47,47,sing,,15,55,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+48,48,supersonic,,20,55,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+49,49,sonic-boom,,20,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+50,50,disable,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+51,51,acid,40,30,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+52,52,ember,40,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+53,53,flamethrower,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+54,54,mist,,30,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+55,55,water-gun,40,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+56,56,hydro-pump,110,5,80,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+57,57,surf,90,15,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+58,58,ice-beam,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+59,59,blizzard,110,5,70,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+60,60,psybeam,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+61,61,bubble-beam,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+62,62,aurora-beam,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+63,63,hyper-beam,150,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+64,64,peck,35,35,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+65,65,drill-peck,80,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+66,66,submission,80,20,80,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+67,67,low-kick,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+68,68,counter,,20,100,-5,specific-move,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+69,69,seismic-toss,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+70,70,strength,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+71,71,absorb,20,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+72,72,mega-drain,40,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+73,73,leech-seed,,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+74,74,growth,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+75,75,razor-leaf,55,25,95,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+76,76,solar-beam,120,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+77,77,poison-powder,,35,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+78,78,stun-spore,,30,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+79,79,sleep-powder,,15,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+80,80,petal-dance,120,10,100,0,random-opponent,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+81,81,string-shot,,40,95,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+82,82,dragon-rage,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+83,83,fire-spin,35,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+84,84,thunder-shock,40,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+85,85,thunderbolt,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+86,86,thunder-wave,,20,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+87,87,thunder,110,10,70,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+88,88,rock-throw,50,15,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+89,89,earthquake,100,10,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+90,90,fissure,,5,30,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+91,91,dig,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+92,92,toxic,,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+93,93,confusion,50,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+94,94,psychic,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+95,95,hypnosis,,20,60,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+96,96,meditate,,40,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+97,97,agility,,30,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+98,98,quick-attack,40,30,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+99,99,rage,20,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+100,100,teleport,,20,,-6,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+101,101,night-shade,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+102,102,mimic,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+103,103,screech,,40,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+104,104,double-team,,15,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+105,105,recover,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+106,106,harden,,30,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+107,107,minimize,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+108,108,smokescreen,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+109,109,confuse-ray,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+110,110,withdraw,,40,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+111,111,defense-curl,,40,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+112,112,barrier,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+113,113,light-screen,,30,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+114,114,haze,,30,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+115,115,reflect,,20,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+116,116,focus-energy,,30,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+117,117,bide,,10,,1,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+118,118,metronome,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+119,119,mirror-move,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+120,120,self-destruct,200,5,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+121,121,egg-bomb,100,10,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+122,122,lick,30,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+123,123,smog,30,20,70,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+124,124,sludge,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+125,125,bone-club,65,20,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+126,126,fire-blast,110,5,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+127,127,waterfall,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+128,128,clamp,35,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+129,129,swift,60,20,,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+130,130,skull-bash,130,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+131,131,spike-cannon,20,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+132,132,constrict,10,35,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+133,133,amnesia,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+134,134,kinesis,,15,80,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+135,135,soft-boiled,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+136,136,high-jump-kick,130,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+137,137,glare,,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+138,138,dream-eater,100,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+139,139,poison-gas,,40,90,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+140,140,barrage,15,20,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+141,141,leech-life,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+142,142,lovely-kiss,,10,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+143,143,sky-attack,140,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+144,144,transform,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+145,145,bubble,40,30,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+146,146,dizzy-punch,70,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+147,147,spore,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+148,148,flash,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+149,149,psywave,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+150,150,splash,,40,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+151,151,acid-armor,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+152,152,crabhammer,100,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+153,153,explosion,250,5,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+154,154,fury-swipes,18,15,80,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+155,155,bonemerang,50,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+156,156,rest,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+157,157,rock-slide,75,10,90,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+158,158,hyper-fang,80,15,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+159,159,sharpen,,30,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+160,160,conversion,,30,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+161,161,tri-attack,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+162,162,super-fang,,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+163,163,slash,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+164,164,substitute,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+165,165,struggle,50,1,,0,random-opponent,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+166,166,sketch,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+167,167,triple-kick,10,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+168,168,thief,60,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+169,169,spider-web,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+170,170,mind-reader,,5,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+171,171,nightmare,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+172,172,flame-wheel,60,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+173,173,snore,50,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+174,174,curse,,10,,0,specific-move,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+175,175,flail,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+176,176,conversion-2,,30,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+177,177,aeroblast,100,5,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+178,178,cotton-spore,,40,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+179,179,reversal,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+180,180,spite,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+181,181,powder-snow,40,25,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+182,182,protect,,10,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+183,183,mach-punch,40,30,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+184,184,scary-face,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+185,185,feint-attack,60,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+186,186,sweet-kiss,,10,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+187,187,belly-drum,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+188,188,sludge-bomb,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+189,189,mud-slap,20,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+190,190,octazooka,65,10,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+191,191,spikes,,20,,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+192,192,zap-cannon,120,5,50,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+193,193,foresight,,40,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+194,194,destiny-bond,,5,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+195,195,perish-song,,5,,0,all-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+196,196,icy-wind,55,15,95,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+197,197,detect,,5,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+198,198,bone-rush,25,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+199,199,lock-on,,5,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+200,200,outrage,120,10,100,0,random-opponent,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+201,201,sandstorm,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+202,202,giga-drain,75,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+203,203,endure,,10,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+204,204,charm,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+205,205,rollout,30,20,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+206,206,false-swipe,40,40,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+207,207,swagger,,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+208,208,milk-drink,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+209,209,spark,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+210,210,fury-cutter,40,20,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+211,211,steel-wing,70,25,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+212,212,mean-look,,5,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+213,213,attract,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+214,214,sleep-talk,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+215,215,heal-bell,,5,,0,user-and-allies,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+216,216,return,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+217,217,present,,15,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+218,218,frustration,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+219,219,safeguard,,25,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+220,220,pain-split,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+221,221,sacred-fire,100,5,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+222,222,magnitude,,30,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+223,223,dynamic-punch,100,5,50,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+224,224,megahorn,120,10,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+225,225,dragon-breath,60,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+226,226,baton-pass,,40,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+227,227,encore,,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+228,228,pursuit,40,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+229,229,rapid-spin,50,40,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+230,230,sweet-scent,,20,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+231,231,iron-tail,100,15,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+232,232,metal-claw,50,35,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+233,233,vital-throw,70,10,,-1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+234,234,morning-sun,,5,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+235,235,synthesis,,5,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+236,236,moonlight,,5,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+237,237,hidden-power,60,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+238,238,cross-chop,100,5,80,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+239,239,twister,40,20,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+240,240,rain-dance,,5,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+241,241,sunny-day,,5,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+242,242,crunch,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+243,243,mirror-coat,,20,100,-5,specific-move,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+244,244,psych-up,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+245,245,extreme-speed,80,5,100,2,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+246,246,ancient-power,60,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+247,247,shadow-ball,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+248,248,future-sight,120,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+249,249,rock-smash,40,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+250,250,whirlpool,35,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+251,251,beat-up,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+252,252,fake-out,40,10,100,3,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+253,253,uproar,90,10,100,0,random-opponent,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+254,254,stockpile,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+255,255,spit-up,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+256,256,swallow,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+257,257,heat-wave,95,10,90,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+258,258,hail,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+259,259,torment,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+260,260,flatter,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+261,261,will-o-wisp,,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+262,262,memento,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+263,263,facade,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+264,264,focus-punch,150,20,100,-3,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+265,265,smelling-salts,70,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+266,266,follow-me,,20,,2,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+267,267,nature-power,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+268,268,charge,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+269,269,taunt,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+270,270,helping-hand,,20,,5,ally,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+271,271,trick,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+272,272,role-play,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+273,273,wish,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+274,274,assist,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+275,275,ingrain,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+276,276,superpower,120,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+277,277,magic-coat,,15,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+278,278,recycle,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+279,279,revenge,60,10,100,-4,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+280,280,brick-break,75,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+281,281,yawn,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+282,282,knock-off,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+283,283,endeavor,,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+284,284,eruption,150,5,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+285,285,skill-swap,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+286,286,imprison,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+287,287,refresh,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+288,288,grudge,,5,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+289,289,snatch,,10,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+290,290,secret-power,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+291,291,dive,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+292,292,arm-thrust,15,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+293,293,camouflage,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+294,294,tail-glow,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+295,295,luster-purge,70,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+296,296,mist-ball,70,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+297,297,feather-dance,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+298,298,teeter-dance,,20,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+299,299,blaze-kick,85,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+300,300,mud-sport,,15,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+301,301,ice-ball,30,20,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+302,302,needle-arm,60,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+303,303,slack-off,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+304,304,hyper-voice,90,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+305,305,poison-fang,50,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+306,306,crush-claw,75,10,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+307,307,blast-burn,150,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+308,308,hydro-cannon,150,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+309,309,meteor-mash,90,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+310,310,astonish,30,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+311,311,weather-ball,50,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+312,312,aromatherapy,,5,,0,user-and-allies,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+313,313,fake-tears,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+314,314,air-cutter,60,25,95,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+315,315,overheat,130,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+316,316,odor-sleuth,,40,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+317,317,rock-tomb,60,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+318,318,silver-wind,60,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+319,319,metal-sound,,40,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+320,320,grass-whistle,,15,55,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+321,321,tickle,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+322,322,cosmic-power,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+323,323,water-spout,150,5,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+324,324,signal-beam,75,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+325,325,shadow-punch,60,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+326,326,extrasensory,80,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+327,327,sky-uppercut,85,15,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+328,328,sand-tomb,35,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+329,329,sheer-cold,,5,30,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+330,330,muddy-water,90,10,85,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+331,331,bullet-seed,25,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+332,332,aerial-ace,60,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+333,333,icicle-spear,25,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+334,334,iron-defense,,15,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+335,335,block,,5,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+336,336,howl,,40,,0,user-and-allies,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+337,337,dragon-claw,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+338,338,frenzy-plant,150,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+339,339,bulk-up,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+340,340,bounce,85,5,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+341,341,mud-shot,55,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+342,342,poison-tail,50,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+343,343,covet,60,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+344,344,volt-tackle,120,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+345,345,magical-leaf,60,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+346,346,water-sport,,15,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+347,347,calm-mind,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+348,348,leaf-blade,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+349,349,dragon-dance,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+350,350,rock-blast,25,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+351,351,shock-wave,60,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+352,352,water-pulse,60,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+353,353,doom-desire,140,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+354,354,psycho-boost,140,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+355,355,roost,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+356,356,gravity,,5,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+357,357,miracle-eye,,40,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+358,358,wake-up-slap,70,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+359,359,hammer-arm,100,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+360,360,gyro-ball,,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+361,361,healing-wish,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+362,362,brine,65,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+363,363,natural-gift,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+364,364,feint,30,10,100,2,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+365,365,pluck,60,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+366,366,tailwind,,15,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+367,367,acupressure,,30,,0,user-or-ally,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+368,368,metal-burst,,10,100,0,specific-move,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+369,369,u-turn,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+370,370,close-combat,120,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+371,371,payback,50,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+372,372,assurance,60,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+373,373,embargo,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+374,374,fling,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+375,375,psycho-shift,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+376,376,trump-card,,5,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+377,377,heal-block,,15,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+378,378,wring-out,,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+379,379,power-trick,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+380,380,gastro-acid,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+381,381,lucky-chant,,30,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+382,382,me-first,,20,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+383,383,copycat,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+384,384,power-swap,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+385,385,guard-swap,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+386,386,punishment,,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+387,387,last-resort,140,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+388,388,worry-seed,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+389,389,sucker-punch,70,5,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+390,390,toxic-spikes,,20,,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+391,391,heart-swap,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+392,392,aqua-ring,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+393,393,magnet-rise,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+394,394,flare-blitz,120,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+395,395,force-palm,60,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+396,396,aura-sphere,80,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+397,397,rock-polish,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+398,398,poison-jab,80,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+399,399,dark-pulse,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+400,400,night-slash,70,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+401,401,aqua-tail,90,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+402,402,seed-bomb,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+403,403,air-slash,75,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+404,404,x-scissor,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+405,405,bug-buzz,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+406,406,dragon-pulse,85,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+407,407,dragon-rush,100,10,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+408,408,power-gem,80,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+409,409,drain-punch,75,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+410,410,vacuum-wave,40,30,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+411,411,focus-blast,120,5,70,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+412,412,energy-ball,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+413,413,brave-bird,120,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+414,414,earth-power,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+415,415,switcheroo,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+416,416,giga-impact,150,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+417,417,nasty-plot,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+418,418,bullet-punch,40,30,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+419,419,avalanche,60,10,100,-4,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+420,420,ice-shard,40,30,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+421,421,shadow-claw,70,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+422,422,thunder-fang,65,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+423,423,ice-fang,65,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+424,424,fire-fang,65,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+425,425,shadow-sneak,40,30,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+426,426,mud-bomb,65,10,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+427,427,psycho-cut,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+428,428,zen-headbutt,80,15,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+429,429,mirror-shot,65,10,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+430,430,flash-cannon,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+431,431,rock-climb,90,20,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+432,432,defog,,15,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+433,433,trick-room,,5,,-7,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+434,434,draco-meteor,130,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+435,435,discharge,80,15,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+436,436,lava-plume,80,15,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+437,437,leaf-storm,130,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+438,438,power-whip,120,10,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+439,439,rock-wrecker,150,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+440,440,cross-poison,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+441,441,gunk-shot,120,5,80,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+442,442,iron-head,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+443,443,magnet-bomb,60,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+444,444,stone-edge,100,5,80,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+445,445,captivate,,20,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+446,446,stealth-rock,,20,,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+447,447,grass-knot,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+448,448,chatter,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+449,449,judgment,100,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+450,450,bug-bite,60,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+451,451,charge-beam,50,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+452,452,wood-hammer,120,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+453,453,aqua-jet,40,20,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+454,454,attack-order,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+455,455,defend-order,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+456,456,heal-order,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+457,457,head-smash,150,5,80,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+458,458,double-hit,35,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+459,459,roar-of-time,150,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+460,460,spacial-rend,100,5,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+461,461,lunar-dance,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+462,462,crush-grip,,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+463,463,magma-storm,100,5,75,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+464,464,dark-void,,10,50,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+465,465,seed-flare,120,5,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+466,466,ominous-wind,60,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+467,467,shadow-force,120,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+468,468,hone-claws,,15,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+469,469,wide-guard,,10,,3,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+470,470,guard-split,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+471,471,power-split,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+472,472,wonder-room,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+473,473,psyshock,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+474,474,venoshock,65,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+475,475,autotomize,,15,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+476,476,rage-powder,,20,,2,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+477,477,telekinesis,,15,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+478,478,magic-room,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+479,479,smack-down,50,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+480,480,storm-throw,60,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+481,481,flame-burst,70,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+482,482,sludge-wave,95,10,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+483,483,quiver-dance,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+484,484,heavy-slam,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+485,485,synchronoise,120,10,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+486,486,electro-ball,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+487,487,soak,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+488,488,flame-charge,50,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+489,489,coil,,20,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+490,490,low-sweep,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+491,491,acid-spray,40,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+492,492,foul-play,95,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+493,493,simple-beam,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+494,494,entrainment,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+495,495,after-you,,15,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+496,496,round,60,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+497,497,echoed-voice,40,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+498,498,chip-away,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+499,499,clear-smog,50,15,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+500,500,stored-power,20,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+501,501,quick-guard,,15,,3,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+502,502,ally-switch,,15,,2,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+503,503,scald,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+504,504,shell-smash,,15,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+505,505,heal-pulse,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+506,506,hex,65,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+507,507,sky-drop,60,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+508,508,shift-gear,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+509,509,circle-throw,60,10,90,-6,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+510,510,incinerate,60,15,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+511,511,quash,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+512,512,acrobatics,55,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+513,513,reflect-type,,15,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+514,514,retaliate,70,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+515,515,final-gambit,,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+516,516,bestow,,15,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+517,517,inferno,100,5,50,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+518,518,water-pledge,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+519,519,fire-pledge,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+520,520,grass-pledge,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+521,521,volt-switch,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+522,522,struggle-bug,50,20,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+523,523,bulldoze,60,20,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+524,524,frost-breath,60,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+525,525,dragon-tail,60,10,90,-6,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+526,526,work-up,,30,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+527,527,electroweb,55,15,95,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+528,528,wild-charge,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+529,529,drill-run,80,10,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+530,530,dual-chop,40,15,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+531,531,heart-stamp,60,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+532,532,horn-leech,75,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+533,533,sacred-sword,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+534,534,razor-shell,75,10,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+535,535,heat-crash,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+536,536,leaf-tornado,65,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+537,537,steamroller,65,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+538,538,cotton-guard,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+539,539,night-daze,85,10,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+540,540,psystrike,100,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+541,541,tail-slap,25,10,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+542,542,hurricane,110,10,70,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+543,543,head-charge,120,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+544,544,gear-grind,50,15,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+545,545,searing-shot,100,5,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+546,546,techno-blast,120,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+547,547,relic-song,75,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+548,548,secret-sword,85,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+549,549,glaciate,65,10,95,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+550,550,bolt-strike,130,5,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+551,551,blue-flare,130,5,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+552,552,fiery-dance,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+553,553,freeze-shock,140,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+554,554,ice-burn,140,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+555,555,snarl,55,15,95,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+556,556,icicle-crash,85,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+557,557,v-create,180,5,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+558,558,fusion-flare,100,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+559,559,fusion-bolt,100,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+560,560,flying-press,100,10,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+561,561,mat-block,,10,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+562,562,belch,120,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+563,563,rototiller,,10,,0,all-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+564,564,sticky-web,,20,,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+565,565,fell-stinger,50,25,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+566,566,phantom-force,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+567,567,trick-or-treat,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+568,568,noble-roar,,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+569,569,ion-deluge,,25,,1,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+570,570,parabolic-charge,65,20,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+571,571,forests-curse,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+572,572,petal-blizzard,90,15,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+573,573,freeze-dry,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+574,574,disarming-voice,40,15,,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+575,575,parting-shot,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+576,576,topsy-turvy,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+577,577,draining-kiss,50,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+578,578,crafty-shield,,10,,3,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+579,579,flower-shield,,10,,0,all-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+580,580,grassy-terrain,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+581,581,misty-terrain,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+582,582,electrify,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+583,583,play-rough,90,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+584,584,fairy-wind,40,30,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+585,585,moonblast,95,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+586,586,boomburst,140,10,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+587,587,fairy-lock,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+588,588,kings-shield,,10,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+589,589,play-nice,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+590,590,confide,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+591,591,diamond-storm,100,5,95,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+592,592,steam-eruption,110,5,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+593,593,hyperspace-hole,80,5,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+594,594,water-shuriken,15,20,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+595,595,mystical-fire,75,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+596,596,spiky-shield,,10,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+597,597,aromatic-mist,,20,,0,ally,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+598,598,eerie-impulse,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+599,599,venom-drench,,20,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+600,600,powder,,20,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+601,601,geomancy,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+602,602,magnetic-flux,,20,,0,user-and-allies,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+603,603,happy-hour,,30,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+604,604,electric-terrain,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+605,605,dazzling-gleam,80,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+606,606,celebrate,,40,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+607,607,hold-hands,,40,,0,ally,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+608,608,baby-doll-eyes,,30,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+609,609,nuzzle,20,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+610,610,hold-back,40,40,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+611,611,infestation,20,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+612,612,power-up-punch,40,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+613,613,oblivion-wing,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+614,614,thousand-arrows,90,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+615,615,thousand-waves,90,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+616,616,lands-wrath,90,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+617,617,light-of-ruin,140,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+618,618,origin-pulse,110,10,85,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+619,619,precipice-blades,120,10,85,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+620,620,dragon-ascent,120,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+621,621,hyperspace-fury,100,5,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+622,622,breakneck-blitz--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+623,623,breakneck-blitz--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+624,624,all-out-pummeling--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+625,625,all-out-pummeling--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+626,626,supersonic-skystrike--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+627,627,supersonic-skystrike--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+628,628,acid-downpour--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+629,629,acid-downpour--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+630,630,tectonic-rage--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+631,631,tectonic-rage--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+632,632,continental-crush--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+633,633,continental-crush--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+634,634,savage-spin-out--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+635,635,savage-spin-out--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+636,636,never-ending-nightmare--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+637,637,never-ending-nightmare--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+638,638,corkscrew-crash--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+639,639,corkscrew-crash--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+640,640,inferno-overdrive--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+641,641,inferno-overdrive--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+642,642,hydro-vortex--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+643,643,hydro-vortex--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+644,644,bloom-doom--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+645,645,bloom-doom--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+646,646,gigavolt-havoc--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+647,647,gigavolt-havoc--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+648,648,shattered-psyche--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+649,649,shattered-psyche--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+650,650,subzero-slammer--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+651,651,subzero-slammer--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+652,652,devastating-drake--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+653,653,devastating-drake--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+654,654,black-hole-eclipse--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+655,655,black-hole-eclipse--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+656,656,twinkle-tackle--physical,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+657,657,twinkle-tackle--special,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+658,658,catastropika,210,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+659,659,shore-up,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+660,660,first-impression,90,10,100,2,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+661,661,baneful-bunker,,10,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+662,662,spirit-shackle,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+663,663,darkest-lariat,85,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+664,664,sparkling-aria,90,10,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+665,665,ice-hammer,100,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+666,666,floral-healing,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+667,667,high-horsepower,95,10,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+668,668,strength-sap,,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+669,669,solar-blade,125,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+670,670,leafage,40,40,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+671,671,spotlight,,15,,3,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+672,672,toxic-thread,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+673,673,laser-focus,,30,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+674,674,gear-up,,20,,0,user-and-allies,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+675,675,throat-chop,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+676,676,pollen-puff,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+677,677,anchor-shot,80,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+678,678,psychic-terrain,,10,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+679,679,lunge,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+680,680,fire-lash,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+681,681,power-trip,20,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+682,682,burn-up,130,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+683,683,speed-swap,,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+684,684,smart-strike,70,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+685,685,purify,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+686,686,revelation-dance,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+687,687,core-enforcer,100,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+688,688,trop-kick,70,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+689,689,instruct,,15,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+690,690,beak-blast,100,15,100,-3,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+691,691,clanging-scales,110,5,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+692,692,dragon-hammer,90,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+693,693,brutal-swing,60,20,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+694,694,aurora-veil,,20,,0,users-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+695,695,sinister-arrow-raid,180,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+696,696,malicious-moonsault,180,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+697,697,oceanic-operetta,195,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+698,698,guardian-of-alola,,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+699,699,soul-stealing-7-star-strike,195,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+700,700,stoked-sparksurfer,175,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+701,701,pulverizing-pancake,210,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+702,702,extreme-evoboost,,1,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+703,703,genesis-supernova,185,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+704,704,shell-trap,150,5,100,-3,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+705,705,fleur-cannon,130,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+706,706,psychic-fangs,85,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+707,707,stomping-tantrum,75,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+708,708,shadow-bone,85,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+709,709,accelerock,40,20,100,1,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+710,710,liquidation,85,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+711,711,prismatic-laser,160,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+712,712,spectral-thief,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+713,713,sunsteel-strike,100,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+714,714,moongeist-beam,100,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+715,715,tearful-look,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+716,716,zing-zap,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+717,717,natures-madness,,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+718,718,multi-attack,120,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+719,719,10-000-000-volt-thunderbolt,195,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+720,720,mind-blown,150,5,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+721,721,plasma-fists,100,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+722,722,photon-geyser,100,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+723,723,light-that-burns-the-sky,200,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+724,724,searing-sunraze-smash,200,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+725,725,menacing-moonraze-maelstrom,200,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+726,726,lets-snuggle-forever,190,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+727,727,splintered-stormshards,190,1,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+728,728,clangorous-soulblaze,185,1,,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+729,729,zippy-zap,80,10,100,2,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+730,730,splishy-splash,90,15,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+731,731,floaty-fall,90,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+732,732,pika-papow,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+733,733,bouncy-bubble,60,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+734,734,buzzy-buzz,60,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+735,735,sizzly-slide,60,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+736,736,glitzy-glow,80,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+737,737,baddy-bad,80,15,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+738,738,sappy-seed,100,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+739,739,freezy-frost,100,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+740,740,sparkly-swirl,120,5,85,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+741,741,veevee-volley,,20,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+742,742,double-iron-bash,60,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+743,743,max-guard,,10,,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+744,744,dynamax-cannon,100,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+745,745,snipe-shot,80,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+746,746,jaw-lock,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+747,747,stuff-cheeks,,10,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+748,748,no-retreat,,5,,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+749,749,tar-shot,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+750,750,magic-powder,,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+751,751,dragon-darts,50,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+752,752,teatime,,10,,0,all-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+753,753,octolock,,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+754,754,bolt-beak,85,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+755,755,fishious-rend,85,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+756,756,court-change,,10,100,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+757,757,max-flare,100,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+758,758,max-flutterby,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+759,759,max-lightning,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+760,760,max-strike,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+761,761,max-knuckle,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+762,762,max-phantasm,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+763,763,max-hailstorm,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+764,764,max-ooze,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+765,765,max-geyser,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+766,766,max-airstream,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+767,767,max-starfall,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+768,768,max-wyrmwind,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+769,769,max-mindstorm,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+770,770,max-rockfall,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+771,771,max-quake,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+772,772,max-darkness,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+773,773,max-overgrowth,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+774,774,max-steelspike,10,10,,0,selected-pokemon-me-first,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+775,775,clangorous-soul,,5,100,0,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+776,776,body-press,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+777,777,decorate,,15,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+778,778,drum-beating,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+779,779,snap-trap,35,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+780,780,pyro-ball,120,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+781,781,behemoth-blade,100,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+782,782,behemoth-bash,100,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+783,783,aura-wheel,110,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+784,784,breaking-swipe,60,15,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+785,785,branch-poke,40,40,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+786,786,overdrive,80,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+787,787,apple-acid,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+788,788,grav-apple,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+789,789,spirit-break,75,15,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+790,790,strange-steam,90,10,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+791,791,life-dew,,10,,0,user-and-allies,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+792,792,obstruct,,10,100,4,user,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+793,793,false-surrender,80,10,,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+794,794,meteor-assault,150,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+795,795,eternabeam,160,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+796,796,steel-beam,140,5,95,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+797,797,expanding-force,80,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+798,798,steel-roller,130,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+799,799,scale-shot,25,20,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+800,800,meteor-beam,120,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+801,801,shell-side-arm,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+802,802,misty-explosion,100,5,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+803,803,grassy-glide,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+804,804,rising-voltage,70,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+805,805,terrain-pulse,50,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+806,806,skitter-smack,70,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+807,807,burning-jealousy,70,5,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+808,808,lash-out,75,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+809,809,poltergeist,110,5,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+810,810,corrosive-gas,,40,100,0,all-other-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+811,811,coaching,,10,,0,user-and-allies,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+812,812,flip-turn,60,20,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+813,813,triple-axel,20,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+814,814,dual-wingbeat,40,10,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+815,815,scorching-sands,70,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+816,816,jungle-healing,,10,,0,user-and-allies,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+817,817,wicked-blow,80,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+818,818,surging-strikes,25,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+819,819,thunder-cage,80,15,90,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+820,820,dragon-energy,150,5,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+821,821,freezing-glare,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+822,822,fiery-wrath,90,10,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+823,823,thunderous-kick,90,10,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+824,824,glacial-lance,130,5,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+825,825,astral-barrage,120,5,100,0,all-opponents,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+826,826,eerie-spell,80,5,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+827,10001,shadow-rush,55,,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+828,10002,shadow-blast,80,,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+829,10003,shadow-blitz,40,,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+830,10004,shadow-bolt,75,,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+831,10005,shadow-break,75,,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+832,10006,shadow-chill,75,,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+833,10007,shadow-end,120,,60,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+834,10008,shadow-fire,75,,100,0,selected-pokemon,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+835,10009,shadow-rave,70,,100,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+836,10010,shadow-storm,95,,100,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+837,10011,shadow-wave,50,,100,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+838,10012,shadow-down,,,100,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+839,10013,shadow-half,,,100,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+840,10014,shadow-hold,,,,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+841,10015,shadow-mist,,,100,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+842,10016,shadow-panic,,,90,0,opponents-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+843,10017,shadow-shed,,,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
+844,10018,shadow-sky,,,,0,entire-field,2021-09-29 11:07:04.04-04,2021-09-29 11:07:04.04-04
