@@ -10,16 +10,16 @@ router.get("/", async (req, res) => {
 });
 
 // GET SPECIFIC POKEMON
-router.get("/:id", async (req, res) => {
-  let pokemon = await PokemonModel.findByPk(req.params.id, {
-    include: [
-      {
-        model: PokemonModel,
-        attributes: ["pokemonName", "height", "weight", "baseExperience"],
-      },
-    ],
-  });
-  res.json({ pokemon });
-});
+// router.get("/:id", async (req, res) => {
+//   let pokemon = await PokemonModel.findByPk(req.params.id, {
+//     include: [
+//       {
+//         model: PokemonModel,
+//         attributes: ["pokemonName", "height", "weight", "baseExperience"],
+//       },
+//     ],
+//   });
+//   res.json({ pokemon });
+// });
 
 module.exports = router;

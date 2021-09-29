@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.json({ message: "express api app is working" });
 });
 
-app.use("/api/pokemon", require("./controllers/pokemonController"));
+app.use("/api/pokemon", require("./controllers/pokemonController.js"));
 
 app.listen(process.env.PORT, () => {
   console.log("Nodemon listening");
