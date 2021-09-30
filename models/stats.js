@@ -12,6 +12,10 @@ module.exports = (sequelize, DataTypes) => {
   }
   Stats.init(
     {
+      statsId: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+      },
       pokemonId: DataTypes.INTEGER,
       statName: DataTypes.STRING,
       baseStat: DataTypes.INTEGER,

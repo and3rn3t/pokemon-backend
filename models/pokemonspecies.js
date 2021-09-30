@@ -13,6 +13,10 @@ module.exports = (sequelize, DataTypes) => {
   }
   PokemonSpecies.init(
     {
+      speciesId: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+      },
       speciesName: DataTypes.STRING,
       generation: DataTypes.INTEGER,
       evolvesFromSpecies: DataTypes.INTEGER,

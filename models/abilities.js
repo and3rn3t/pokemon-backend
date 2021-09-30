@@ -12,6 +12,10 @@ module.exports = (sequelize, DataTypes) => {
   }
   Abilities.init(
     {
+      abilitiesId: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+      },
       pokemonId: DataTypes.INTEGER,
       abilityName: DataTypes.STRING,
       isHidden: DataTypes.BOOLEAN,

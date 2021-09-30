@@ -12,6 +12,10 @@ module.exports = (sequelize, DataTypes) => {
   }
   Types.init(
     {
+      typesId: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+      },
       pokemonId: DataTypes.INTEGER,
       typeName: DataTypes.STRING,
       slot: DataTypes.INTEGER,
