@@ -2,7 +2,7 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable("Pokemons", {
-      id: {
+      pokeId: {
         allowNull: false,
         primaryKey: true,
         type: Sequelize.INTEGER,
