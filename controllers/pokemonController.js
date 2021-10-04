@@ -4,9 +4,7 @@ const router = express.Router();
 const Pokemon = require("../models").Pokemon;
 const PokemonSpecies = require("../models").PokemonSpecies;
 const Stats = require("../models/").Stats;
-const Moves = require("../models").Moves;
 const Types = require("../models").Types;
-const MoveDetails = require("../models").MoveDetails;
 const Abilities = require("../models").Abilities;
 
 // GET ALL POKEMON
@@ -30,8 +28,6 @@ router.get("/", async (req, res) => {
       { model: Types, attributes: ["typeName", "slot"] },
       { model: Abilities, attributes: ["abilityName", "isHidden", "slot"] },
       { model: Stats, attributes: ["statName", "baseStat", "effort"] },
-      //   { model: Moves, attributes: ["level", "order"] },
-      //   { model: MoveDetails },
     ],
   });
   res.json({ pokemons });
@@ -58,8 +54,6 @@ router.get("/:id", async (req, res) => {
       { model: Types, attributes: ["typeName", "slot"] },
       { model: Abilities, attributes: ["abilityName", "isHidden", "slot"] },
       { model: Stats, attributes: ["statName", "baseStat", "effort"] },
-      //   { model: Moves, attributes: ["level", "order"] },
-      //   { model: MoveDetails },
     ],
   });
   res.json({ pokemon });

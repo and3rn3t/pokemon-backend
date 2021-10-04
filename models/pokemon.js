@@ -17,10 +17,6 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "pokemonId",
       });
 
-      Pokemon.hasMany(models.Moves, {
-        foreignKey: "pokemonId",
-      });
-
       Pokemon.hasMany(models.Types, {
         foreignKey: "pokemonId",
       });
